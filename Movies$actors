@@ -1,0 +1,16 @@
+<?php
+
+
+
+$movies = [
+
+'Raiders of the lost ark'=> ['Karen Allen','Paul Freeman','Ronald Lacey'],
+'Indiana Jones and the temple of doom' => ['Kate Capshaw', 'Ke Huy Quan', 'Amrish Puri'],
+'Indiana Jones and the last crusade' => ['Sean Connery', 'Denholm Eliot', 'Alison Doody']
+
+];
+
+
+echo '<pre>',print_r($movies),'</pre>';
+
+?>
