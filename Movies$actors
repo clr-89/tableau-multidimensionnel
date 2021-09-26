@@ -11,6 +11,10 @@ $movies = [
 ];
 
 
-echo '<pre>',print_r($movies),'</pre>';
+
+foreach($movies as $key => $actors){
+
+     echo ' Dans le film '.$key. ',  les principaux acteurs sont :  '.$actors[0].','.$actors[1].','.$actors[2].'.</br></br>';
+}
 
 ?>
